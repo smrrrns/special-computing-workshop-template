@@ -1,0 +1,4 @@
+src\test\resources\Task3\dir1\dir2\testFile2.txt
+src\test\resources\Task3\dir1\dir2\testFile3.txt
+src\test\resources\Task3\dir1\emptyDir
+src\test\resources\Task3\testFile1.txt
