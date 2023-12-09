@@ -9,15 +9,15 @@ import java.util.NoSuchElementException;
 
 class DoublyLinkedLinearList implements List {
 
-    Node head;
-    Node tail;
+    private Node head;
+    private Node tail;
 
     private int size;
 
     static class Node {
-        Object value;
-        Node previous;
-        Node next;
+        private final Object value;
+        private Node previous;
+        private Node next;
 
         Node(Object val, Node prevVal, Node nextVal) {
             this.value = val;
