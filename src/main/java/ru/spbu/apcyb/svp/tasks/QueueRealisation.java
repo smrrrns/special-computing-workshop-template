@@ -65,47 +65,47 @@ public class QueueRealisation implements Queue {
 
     @Override
     public Iterator iterator() {
-        throw new UnsupportedOperationException();
+        throw new UnsupportedOperationException("This method is not supported");
     }
 
     @Override
     public Object[] toArray() {
-        throw new UnsupportedOperationException();
+        throw new UnsupportedOperationException("This method is not supported");
     }
 
     @Override
     public Object[] toArray(Object[] a) {
-        throw new UnsupportedOperationException();
+        throw new UnsupportedOperationException("This method is not supported");
     }
 
     @Override
     public boolean addAll(Collection c) {
-        throw new UnsupportedOperationException();
+        throw new UnsupportedOperationException("This method is not supported");
     }
 
     @Override
     public void clear() {
-        throw new UnsupportedOperationException();
+        throw new UnsupportedOperationException("This method is not supported");
     }
 
     @Override
     public boolean retainAll(Collection c) {
-        throw new UnsupportedOperationException();
+        throw new UnsupportedOperationException("This method is not supported");
     }
 
     @Override
     public boolean removeAll(Collection c) {
-        throw new UnsupportedOperationException();
+        throw new UnsupportedOperationException("This method is not supported");
     }
 
     @Override
     public boolean containsAll(Collection c) {
-        throw new UnsupportedOperationException();
+        throw new UnsupportedOperationException("This method is not supported");
     }
 
     @Override
     public boolean offer(Object o) {
-        throw new UnsupportedOperationException();
+        throw new UnsupportedOperationException("This method is not supported");
     }
 
 
