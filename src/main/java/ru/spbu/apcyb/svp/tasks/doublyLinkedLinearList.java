@@ -7,7 +7,7 @@ import java.util.ListIterator;
 import java.util.NoSuchElementException;
 
 
-public class DoublyLinkedLinearList implements List {
+class DoublyLinkedLinearList implements List {
 
     Node head;
     Node tail;
@@ -175,72 +175,72 @@ public class DoublyLinkedLinearList implements List {
 
     @Override
     public Iterator iterator() {
-        throw new UnsupportedOperationException();
+        throw new UnsupportedOperationException("This method is not supported");
     }
 
     @Override
     public Object[] toArray() {
-        throw new UnsupportedOperationException();
+        throw new UnsupportedOperationException("This method is not supported");
     }
 
     @Override
     public Object[] toArray(Object[] a) {
-        throw new UnsupportedOperationException();
+        throw new UnsupportedOperationException("This method is not supported");
     }
 
     @Override
     public boolean addAll(Collection c) {
-        throw new UnsupportedOperationException();
+        throw new UnsupportedOperationException("This method is not supported");
     }
 
     @Override
     public boolean addAll(int index, Collection c) {
-        throw new UnsupportedOperationException();
+        throw new UnsupportedOperationException("This method is not supported");
     }
 
     @Override
     public void clear() {
-        throw new UnsupportedOperationException();
+        throw new UnsupportedOperationException("This method is not supported");
     }
 
     @Override
     public Object set(int index, Object element) {
-        throw new UnsupportedOperationException();
+        throw new UnsupportedOperationException("This method is not supported");
     }
 
     @Override
     public boolean containsAll(Collection c) {
-        throw new UnsupportedOperationException();
+        throw new UnsupportedOperationException("This method is not supported");
     }
 
     @Override
     public int lastIndexOf(Object o) {
-        throw new UnsupportedOperationException();
+        throw new UnsupportedOperationException("This method is not supported");
     }
 
     @Override
     public ListIterator listIterator() {
-        throw new UnsupportedOperationException();
+        throw new UnsupportedOperationException("This method is not supported");
     }
 
     @Override
     public ListIterator listIterator(int index) {
-        throw new UnsupportedOperationException();
+        throw new UnsupportedOperationException("This method is not supported");
     }
 
     @Override
     public List subList(int fromIndex, int toIndex) {
-        throw new UnsupportedOperationException();
+        throw new UnsupportedOperationException("This method is not supported");
     }
 
     @Override
     public boolean retainAll(Collection c) {
-        throw new UnsupportedOperationException();
+        throw new UnsupportedOperationException("This method is not supported");
     }
 
     @Override
     public boolean removeAll(Collection c) {
-        throw new UnsupportedOperationException();
+        throw new UnsupportedOperationException("This method is not supported");
     }
 
     public void isEmptyCheck() {
